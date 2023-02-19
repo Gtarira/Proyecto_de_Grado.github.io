@@ -1,0 +1,155 @@
+html{
+    background-color: #40cfff;
+}
+header{
+    background-color: #40cfff;
+    display: flex;
+}
+
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #7cdaf9; /*#40cfff*/
+}
+
+.contenedor{
+    width: 85%;
+    max-width: 850px;
+    margin: 0px auto;
+    background-color: #7cdaf9;
+}
+.contener{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.ProyectoInicio{
+    text-align: center;
+}
+#Bienvenida{
+    margin-top: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+.Proyecto{
+    font-size: 10px;
+}
+/*****************Todo sobre la nav**************************/
+.icon img{
+    width: 100px;
+    display: flex;
+    float: left;
+    max-width: 1000px;    
+}
+
+.icon h1{
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 20px;
+}
+h1{
+    color: rgb(46, 76, 175);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h2{
+    color: rgb(54, 77, 150);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.selected2 a{
+    color: yellow;
+    border: black;
+    border-radius: 20px;
+}
+
+.logo{
+    margin: 0;
+    margin-left: 20px;
+    display: flex;
+}
+
+#selected1{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header a{
+    font-size: 15px;
+    margin: 0px;
+    color: #FFF;
+    text-decoration: none;
+    justify-content: space-between;
+    display: flex;
+}
+.logo-nav-conteiner{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+.navigation ul li a:hover{
+    background-color: #7cdaf9;
+}
+/*****************************************************/
+
+
+/**********Centro**************/
+.logo img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+p{
+    font-size: 20px;
+    width: 450px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.6em;
+    background-color: #7cdaf9;
+}
+/***********************************/
+
+/**************BOTON**************/
+
+.btn{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/*******************************/
+
+footer{
+    margin-top: 0px 0px;
+    margin: 0px;
+    padding: 0px;
+    max-width: auto;
+    text-align: center;
+    background-color: #40cfff;
+}
+
+
+
+
+
+
+.Grado{
+    background-color: #7cdaf9;
+}
